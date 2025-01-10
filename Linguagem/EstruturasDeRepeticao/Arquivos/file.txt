@@ -1,0 +1,3 @@
+Eu estou estudando na Geek University e estou aprendendo muito no curso de Python.
+Segunda linha.
+Terceira linha.

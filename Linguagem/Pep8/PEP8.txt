@@ -1,0 +1,23 @@
+"""
+PEP8 - Python Enhancement Proposals
+
+1 - Camel Case para nome de classes
+2 - Utilize nomes em minúsculos, separados por underline para funções e variáveis
+3 - Utilize duas linhas entre implementações de classse e funções
+4 - Métodos dentro de uma classe devem ser separdados por um única linha em branco
+5 - Utilize 4 espaços para indentar blocos 
+6 - Imports devem ser feitos em linhas separadas no topo do programa, logo depois de quaisquer
+comentários ou docstrings e antes de constantes ou variáveis globais.
+exceção:
+from types import(
+    StringType,
+    ListType,
+    SetTyep,        
+ )
+
+7 - Espaços em intruções e expressões:
+Não deixe espaços antes ou depois de parênteses, chaves ou colchestes. 
+{ a } ->errado, {a}->certo
+
+8 - Termine um instrução com uma nova linha
+"""
