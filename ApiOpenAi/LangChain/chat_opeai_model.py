@@ -15,8 +15,8 @@ response = model.invoke(
 )
 
 print(response)
-
 """
+
 model = ChatOpenAI(
     model='gpt-3.5-turbo',
     temperature=1,
@@ -30,5 +30,5 @@ messages = [
 
 response = model.invoke(messages)
 
-print(response)
-# print(response.content)
+# print(response)
+print(response.content)
