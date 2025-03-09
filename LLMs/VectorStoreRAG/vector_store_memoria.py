@@ -35,7 +35,7 @@ vector_store = Chroma.from_documents(
     collection_name='laptop_manual',
 )
 
-# Faz buscas no vector store conforme a questão do prompt
+
 retriever = vector_store.as_retriever()
 
 prompt = hub.pull('rlm/rag-prompt')

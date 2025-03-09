@@ -22,7 +22,7 @@ vector_store = Chroma(
 
 retriever = vector_store.as_retriever()
 
-question = "Como resetar um laptop para as configurações de fábrica?"
+question = "Como faço para entrar em contato com a assistência técnica?"
 
 result = retriever.invoke(question)
 
